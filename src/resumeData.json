@@ -1,0 +1,126 @@
+{
+  "main": {
+    "name":"Manav Mendiratta",
+    "occupation":"Software Engineer",
+    "description":"I recently graduated from the University of Wisconsin-Madison, and am currently employed with Target",
+    "image":"profilepic.jpg",
+    "bio":"I'm a recent 23 year-old college graduate. I describe myself as someone who is passionate about learning and trying new things, while also not being afraid to inquire about things I don't understand. I grew up playing sports my whole life such as basketball, soccer, and golf, which has led me to become an avid Minnesota sports fan. I aspire to travel and see as much of the world as I can in my life. ",
+    "contactmessage":"You can get in contact with me by filling out the form below!",
+    "email": "mannimendiratta@yahoo.com",
+    "email2": "mannimendiratta@gmail.com",
+    "phone": "612-964-0321",
+    "address":{
+      "street":"(Your Street)",
+      "city":"Minneapolis",
+      "state":"Minnesota",
+      "zip": "55449"
+    },
+    "website": "",
+    "resumedownload":"",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/mmendiratta2/",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/manav-mendiratta-734120140/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/mannimendiratta/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/mmendiratta",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"My college and work experiences have allowed me to learn a lot about these different skills below. I have had extensive work on Java and JavaScript/ReactJS projects, while soley using Git for my version control. I know the main concepts and ideas for HTML/CSS work, but am currently doing more practice to learn about those. ",
+    "education":[
+      {
+        "school":"University of Wisconsin-Madison",
+        "degree":"Bachelors in Computer Science",
+        "graduated":"May 2020",
+        "description":"I started college pursuing a degree in biomedical engineering, but switched to computer science my second semester of sophomore year. I took the Intro to Java course and fell in love with the idea of being able to create, design, and build out my ideas through code. I found the career that I wanted to pursue, but am still looking to find which direction I want to take in the field. I took a wide variety of classes ranging from backend to frontend development, algorithms, and networks."
+      }
+    ],
+    "work":[
+      {
+        "company":"Target Corporation",
+        "title":"Software Engineer",
+        "years":"July 2020 - Current",
+        "description":"I am currently in a rotation program with Target called the Technology Leadership Program. My first 6 months were spent with a frontend team using React/Typescript. We worked on developing a Supply Chain application that allowed for the tracking of trailers within Target's supply chain network. My next 6 months will be with the Stores Inventory team, and I will be working with Java/Kotlin/Kafka to handle data for all inventory within each store around the US."
+      },
+      {
+        "company":"Target Corporation",
+        "title":"Software Engineer Intern",
+        "years":"June 2019 - August 2019",
+        "description":"I was an intern with Target's Prepaid Services Team where I helped engineer and develop API's with third party vendors for the activation of prepaid video game cards. This microservice was used in conjustion with POS to deliver fast, secure, and accurate activations of guest's newly purchased cards."
+      },
+      {
+        "company":"University Housing IT",
+        "title":"Help Desk and Field Technician",
+        "years":"May 2018 - January 2020",
+        "description":"I was a part of a campus wide project to install routers in 20 residence halls for improved internet speed. Provided technology and customer service support for 9,000 University Housing staff and residents, which included troubleshooting hardware, software and network connectivity issues. Also configured computer workstations and printers for better student experience."
+      }
+    ],
+    "skills":[
+      {
+        "name":"Git",
+        "level":"80%"
+      },
+      {
+        "name":"Java",
+        "level":"85%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"70%"
+      },
+      {
+        "name":"CSS",
+        "level":"50%"
+      },
+      {
+        "name":"HTML5",
+        "level":"75%"
+      },
+      {
+        "name":"Python",
+        "level":"50%"
+      },
+      {
+        "name":"Kafka",
+        "level":"50%"
+      },
+      {
+        "name":"JavaScript",
+        "level":"85%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Course Scheduler",
+        "category":"Course Scheduling app built for a school project",
+        "image":"course-scheduler.jpg",
+        "url":"https://mmendiratta.github.io/Course-Scheduler/",
+        "repo": "https://github.com/mmendiratta/Course-Scheduler"
+      },
+      {
+        "title":"Employee Directory (WIP)",
+        "category":"WIP: Project to learn full-stack development",
+        "image":"employee-directory.png",
+        "url":"https://mmendiratta.github.io/employee-directory-frontend/",
+        "repo": "https://github.com/mmendiratta/employee-directory-frontend"
+      }
+    ]
+  }
+}
