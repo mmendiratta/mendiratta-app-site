@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e6c13ad2.css",
+    "main.js": "/static/js/main.c50597ab.js",
+    "static/media/manav_mendiratta_resume.pdf": "/static/media/manav_mendiratta_resume.edea1644cf8715e6916a.pdf",
+    "index.html": "/index.html",
+    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
+    "main.c50597ab.js.map": "/static/js/main.c50597ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.c50597ab.js"
+  ]
+}
