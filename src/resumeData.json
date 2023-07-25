@@ -2,9 +2,9 @@
   "main": {
     "name":"Manav Mendiratta",
     "occupation":"Senior Software Engineer",
-    "description":"I am a US based frontend engineer with over 3 years of experience. I love UI development and creating the best interfaces that provide incredible value for users.",
+    "description":"I love UI development and creating the best interfaces that provide incredible value for users I am a highly motivated and results-oriented engineer who is always looking for ways to improve my skills and knowledge. ",
     "image":"profilepic.jpg",
-    "bio":"I describe myself as someone who is passionate about learning and trying new things, while also not being afraid to inquire about things I don't understand. I grew up playing sports my whole life such as basketball, soccer, and golf, which has helped me become a great leader and teammate. I aspire to travel and see as much of the world as I can in my life. ",
+    "bio":"I describe myself as someone who is passionate about learning and trying new things, while also not being afraid to inquire about things I don't understand. I am excited to continue my career in software engineering and make a positive impact on the world. I grew up playing sports my whole life such as basketball, soccer, and golf, which has helped me become a great leader and teammate. I aspire to travel and see as much of the world, and try new experiences around the world! ",
     "contactmessage":"You can get in contact with me by filling out the form below!",
     "email": "mannimendiratta@yahoo.com",
     "email2": "mannimendiratta@gmail.com",
@@ -53,9 +53,10 @@
     "work":[
       {
         "company":"Target Corporation",
-        "title":"Software Engineer",
+        "title":"Senior Software Engineer",
         "years":"July 2020 - Current",
-        "description":"I am currently in a rotation program with Target called the Technology Leadership Program. My first 6 months were spent with a frontend team using React/Typescript. We worked on developing a Supply Chain application that allowed for the tracking of trailers within Target's supply chain network. My next 6 months will be with the Stores Inventory team, and I will be working with Java/Kotlin/Kafka to handle data for all inventory within each store around the US."
+        "description": 
+        "In my current role at Target Corporation, I am responsible for designing, customizing, developing, and deploying a web application that is used by over 4,000 team members. The application uses React and Typescript to create a responsive web page that allows users to track freight, create analytics charts, and increase efficiency of warehouse operations. I also contribute to a reusable, internal component library to build higher level modules for overall consistency across the application and ease of updating in all locations. I have also spent extensive time working with backend systems and building out scalable Kafka consumers and producers with Kotlin."
       },
       {
         "company":"Target Corporation",
@@ -72,54 +73,42 @@
     ],
     "skills":[
       {
-        "name":"Git",
-        "level":"80%"
-      },
-      {
-        "name":"Java",
+        "name":"ReactJs",
         "level":"85%"
       },
       {
-        "name":"ReactJs",
-        "level":"70%"
+        "name":"JavaScript / Typescript",
+        "level":"85%"
       },
       {
         "name":"CSS",
         "level":"50%"
       },
       {
-        "name":"HTML5",
-        "level":"75%"
+        "name":"Git",
+        "level":"80%"
       },
       {
-        "name":"Python",
-        "level":"50%"
-      },
-      {
-        "name":"Kafka",
-        "level":"50%"
-      },
-      {
-        "name":"JavaScript",
-        "level":"85%"
+        "name":"NodeJs",
+        "level":"60%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
+        "title":"Book Review Website",
+        "category":"Created a book review website for a super user (my girlfriend)",
+        "image":"reviews-homepage.jpg",
+        "url":"https://rainareviews.com/",
+        "repo": "https://github.com/mmendiratta/book-review-frontend"
+      },
+      {
         "title":"Course Scheduler",
         "category":"Course Scheduling app built for a school project",
         "image":"course-scheduler.jpg",
         "url":"https://mmendiratta.github.io/Course-Scheduler/",
         "repo": "https://github.com/mmendiratta/Course-Scheduler"
-      },
-      {
-        "title":"Employee Directory (WIP)",
-        "category":"WIP: Project to learn full-stack development",
-        "image":"employee-directory.png",
-        "url":"https://mmendiratta.github.io/employee-directory-frontend/",
-        "repo": "https://github.com/mmendiratta/employee-directory-frontend"
       }
     ]
   }
