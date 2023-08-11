@@ -109,7 +109,15 @@
         "image":"course-scheduler.jpg",
         "url":"https://mmendiratta.github.io/Course-Scheduler/",
         "repo": "https://github.com/mmendiratta/Course-Scheduler"
+      },
+      {
+        "title":"Groupomania",
+        "category":"A reddit like forum built where users can create meme posts, like them, and know which ones they've already seen. The APIs most likely won't work since I haven't gotten the paid version to host. This link will take you to a login, but a home screen is just index route of the url. ",
+        "image":"gr-mania.jpg",
+        "url":"https://main--groupomania-mendiratta.netlify.app/login",
+        "repo": "https://github.com/mmendiratta/groupomania-frontend"
       }
+
     ]
   }
 }
