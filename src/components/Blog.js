@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { makeStyles } from "@mui/styles";
-import { Card, CardHeader, CardContent, IconButton, Typography } from "@mui/material";
+import { Card, CardHeader, CardContent, IconButton, Typography, Grid } from "@mui/material";
 import LaunchIcon from "@mui/icons-material/Launch";
 
 const useStyles = makeStyles(theme => ({
@@ -10,7 +10,15 @@ const useStyles = makeStyles(theme => ({
   media: {
     height: 0,
     paddingTop: "56.25%" // 16:9
+  },
+  section: {
+    padding: "12px",
+   flexFlow: "wrap",
+   display: "flex",
+   justifyContent: "center",
+   gap: "80px",
   }
+  
 }));
 
 export default function Blog() {
@@ -23,12 +31,12 @@ export default function Blog() {
 
   const getStories = () => {
     fetch(
-      "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@mannimendiratta"
+      "https://v1.nocodeapi.com/mannimendiratta/medium/nCllCJLUwVDzNsof"
     )
       .then(res => res.json())
       .then(data => {
-        console.log(data.items);
-        setAllStories(data.items);
+      
+        setAllStories(data);
       });
   };
 
@@ -46,19 +54,24 @@ export default function Blog() {
   };
 
   const createCardComponents = () => {
+
     return allStories.map(story => {
+       var imgSrc = story.content.substring(
+        story.content.indexOf("src=\"") + 5, 
+        story.content.lastIndexOf("\" />")
+    );
       return (
         <Card className={classes.root} key={story.title}>
           <CardHeader
             action={
-              <IconButton aria-label="launch" href={story.link}>
+              <IconButton aria-label="launch" href={story.link} target="_blank">
                 <LaunchIcon />
               </IconButton>
             }
             title={story.title}
             subheader={new Date(story.pubDate).toDateString()}
           />
-          <img src={story.thumbnail} alt={"storyImg"}></img>
+          <img src={imgSrc} alt={"storyImg"}></img>
           <CardContent>
             <Typography variant="body2" color="textSecondary" component="p">
               {shortenText(divToText(story.content), 0, 300) + "..."}
@@ -69,5 +82,13 @@ export default function Blog() {
     });
   };
 
-  return <section id="blog">{createCardComponents()}</section>;
+  return (
+    <section id="blog" className={classes.section}>
+      
+      <div  className={classes.section}>
+        <Grid container spacing={2} gap="20px">{createCardComponents()} </Grid>
+      </div>
+      
+    </section>
+  );
 }
