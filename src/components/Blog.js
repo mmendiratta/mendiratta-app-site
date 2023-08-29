@@ -69,7 +69,7 @@ export default function Blog() {
               </IconButton>
             }
             title={story.title}
-            subheader={new Date(story.pubDate).toDateString()}
+            subheader={new Date(story.created).toDateString()}
           />
           <img src={imgSrc} alt={"storyImg"}></img>
           <CardContent>
