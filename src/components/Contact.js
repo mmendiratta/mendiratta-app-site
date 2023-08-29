@@ -75,12 +75,12 @@ class Contact extends Component {
             <div className="ten columns">
 
                   <p className="lead">{message}</p>
-                  <p className="lead">Not yet implemented. Coming soon!</p>
+                  <p className="lead">Form not yet implemented. Coming soon!</p>
             </div>
 
          </div>
 
-         <div className="row">
+         {/* <div className="row">
             <div className="eight columns">
 
                <form  onSubmit={this.handleSubmit.bind(this)} method="POST" id="contactForm" name="contactForm">
@@ -153,9 +153,9 @@ class Contact extends Component {
                         <b><a href="#">3 Days Ago</a></b>
                      </li>
                   </ul>
-		         </div> */}
+		         </div> 
             </aside>
-      </div>
+      </div> */}
    </section>
     );
   }
